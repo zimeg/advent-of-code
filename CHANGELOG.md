@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [unreleased]
 
 - docs(changelog): log the first commit to the changelog
+- docs(readme): begin adventures into code for the season
 
 <!-- a collection of links -->
 [calver]: https://calver.org
