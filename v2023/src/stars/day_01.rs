@@ -1,9 +1,9 @@
-use regex::Regex;
+use regex::{Captures, Regex};
 
 const BYTE_OFFSET_ZERO: u8 = b'\x30';
 
 pub fn calibration_sum(input: String) -> u32 {
-    let numerics = replace_spellings(input).unwrap();
+    let numerics = replace_spellings(&input).unwrap();
     let lines = numerics.trim().split("\n");
     let mut sum: u32 = 0;
     for line in lines {
@@ -12,22 +12,23 @@ pub fn calibration_sum(input: String) -> u32 {
     return sum;
 }
 
-fn replace_spellings(mut input: String) -> Result<String, regex::Error> {
-    input = replace(&input, r"one", "1")?;
-    input = replace(&input, r"two", "2")?;
-    input = replace(&input, r"three", "3")?;
-    input = replace(&input, r"four", "4")?;
-    input = replace(&input, r"five", "5")?;
-    input = replace(&input, r"six", "6")?;
-    input = replace(&input, r"seven", "7")?;
-    input = replace(&input, r"eight", "8")?;
-    input = replace(&input, r"nine", "9")?;
-    Ok(input.to_string())
-}
-
-fn replace(input: &str, target: &str, value: &str) -> Result<String, regex::Error> {
-    let regex = Regex::new(target)?;
-    Ok(regex.replace_all(input, value).to_string())
+fn replace_spellings(input: &str) -> Result<String, regex::Error> {
+    let regex = Regex::new(r"(one|two|three|four|five|six|seven|eight|nine)")?;
+    let replacement = |caps: &Captures| -> String {
+        return match caps[0].trim() {
+            "one" => "1".to_string(),
+            "two" => "2".to_string(),
+            "three" => "3".to_string(),
+            "four" => "4".to_string(),
+            "five" => "5".to_string(),
+            "six" => "6".to_string(),
+            "seven" => "7".to_string(),
+            "eight" => "8".to_string(),
+            "nine" => "9".to_string(),
+            x => x.to_string(),
+        };
+    };
+    Ok(regex.replace_all(input, &replacement).to_string())
 }
 
 fn calibrate_value(value: &str) -> u8 {

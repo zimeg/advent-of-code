@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [unreleased]
 
 - fix(2023.1.2): remove zero from the possibilities for replacement
+- fix(2023.1.2): attempt to swap spellings for digits in apperance order
 
 ## [0.2023.1]
 
