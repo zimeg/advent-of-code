@@ -16,19 +16,20 @@ fn replace_spellings(input: &str) -> Result<String, regex::Error> {
     let regex = Regex::new(r"(one|two|three|four|five|six|seven|eight|nine)")?;
     let replacement = |caps: &Captures| -> String {
         return match caps[0].trim() {
-            "one" => "1".to_string(),
-            "two" => "2".to_string(),
-            "three" => "3".to_string(),
-            "four" => "4".to_string(),
-            "five" => "5".to_string(),
-            "six" => "6".to_string(),
-            "seven" => "7".to_string(),
-            "eight" => "8".to_string(),
-            "nine" => "9".to_string(),
+            "one" => "o1ne".to_string(),
+            "two" => "t2wo".to_string(),
+            "three" => "t3hree".to_string(),
+            "four" => "f4our".to_string(),
+            "five" => "f5ive".to_string(),
+            "six" => "s6ix".to_string(),
+            "seven" => "s7even".to_string(),
+            "eight" => "e8ight".to_string(),
+            "nine" => "n9ine".to_string(),
             x => x.to_string(),
         };
     };
-    Ok(regex.replace_all(input, &replacement).to_string())
+    let overlapped = regex.replace_all(input, &replacement);
+    return Ok(regex.replace_all(&overlapped, &replacement).to_string());
 }
 
 fn calibrate_value(value: &str) -> u8 {
