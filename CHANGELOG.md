@@ -10,6 +10,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - docs(changelog): log the first commit to the changelog
 - docs(readme): begin adventures into code for the season
 - docs(license): share code under the mit license
+- feat(2023.1.1): calibrate sums from digits for problem one of day one
 
 <!-- a collection of links -->
 [calver]: https://calver.org

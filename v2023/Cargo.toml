@@ -1,0 +1,8 @@
+[package]
+name = "aoc"
+version = "0.2023.1"
+edition = "2021"
+repository = "https://github.com/zimeg/advent-of-code"
+license = "MIT"
+
+[dependencies]
