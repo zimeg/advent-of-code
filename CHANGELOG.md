@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [unreleased]
+
+- fix(2023.1.2): remove zero from the possibilities for replacement
+
 ## [0.2023.1]
 
 - docs(changelog): log the first commit to the changelog
@@ -21,4 +25,5 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.1...HEAD
 [0.2023.1]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.1

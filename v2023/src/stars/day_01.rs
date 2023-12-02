@@ -13,7 +13,6 @@ pub fn calibration_sum(input: String) -> u32 {
 }
 
 fn replace_spellings(mut input: String) -> Result<String, regex::Error> {
-    input = replace(&input, r"zero", "0")?;
     input = replace(&input, r"one", "1")?;
     input = replace(&input, r"two", "2")?;
     input = replace(&input, r"three", "3")?;
