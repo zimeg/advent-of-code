@@ -1,0 +1,18 @@
+# changelog
+
+all notable changes to this project will be documented here.
+
+the format is inspired by [keep a changelog][changelog] with entries logged as
+[conventional commits][commits] and marked with [calendar versioning][calver].
+
+## [unreleased]
+
+- docs(changelog): log the first commit to the changelog
+
+<!-- a collection of links -->
+[calver]: https://calver.org
+[changelog]: https://keepachangelog.com/en/1.1.0/
+[commits]: https://www.conventionalcommits.org/en/v1.0.0/
+
+<!-- a collection of releases -->
+[unreleased]: https://github.com/zimeg/advent-of-code
