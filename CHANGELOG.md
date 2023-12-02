@@ -11,6 +11,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - docs(readme): begin adventures into code for the season
 - docs(license): share code under the mit license
 - feat(2023.1.1): calibrate sums from digits for problem one of day one
+- feat(2023.1.2): naively replace spellings of numbers with digits
 - test(2023.1): include input values of the day one puzzle
 
 <!-- a collection of links -->

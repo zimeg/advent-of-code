@@ -6,3 +6,4 @@ repository = "https://github.com/zimeg/advent-of-code"
 license = "MIT"
 
 [dependencies]
+regex = "1"
