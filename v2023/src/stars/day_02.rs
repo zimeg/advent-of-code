@@ -52,3 +52,10 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green";
     let value = count_possible_games(input.to_string());
     assert_eq!(value, 8)
 }
+
+#[test]
+fn test_cube_conundrum_part_one() {
+    let input = std::fs::read_to_string("./inputs/day02").unwrap();
+    let actual = count_possible_games(input);
+    assert_eq!(actual, 1734);
+}

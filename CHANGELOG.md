@@ -21,6 +21,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - fix(2023.1.1): separate changes to calibration made for problem two
 - style(2023): follow recommendations of formatting changes from clippy
 - test(2023.1): perform tests on actual input with the expected answers
+- test(2023.2): include input values of the day two puzzle
 
 ## [0.2023.1]
 
