@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [unreleased]
 
+- chore(2023): make a makefile that makes development commands easier
 - fix(2023.1.2): remove zero from the possibilities for replacement
 - fix(2023.1.2): attempt to swap spellings for digits in apperance order
 - fix(2023.1.2): repeat replacements to capture overlapping spellings
