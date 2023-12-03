@@ -49,10 +49,10 @@ fn show_help(arg: String) -> bool {
 fn print_help() {
     println!("aoc - fixing global snow production");
     println!("usage: aoc <star> <file>");
-    println!("");
+    println!();
     println!("star: the day and problem");
     println!("file: a path to the input");
-    println!("");
+    println!();
     println!("example: aoc 1.1 inputs/day01");
     println!("https://adventofcode.com/2023");
 }

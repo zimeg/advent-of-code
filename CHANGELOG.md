@@ -11,6 +11,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - fix(2023.1.2): attempt to swap spellings for digits in apperance order
 - fix(2023.1.2): repeat replacements to capture overlapping spellings
 - fix(2023.1.1): separate changes to calibration made for problem two
+- style(2023): follow recommendations of formatting changes from clippy
 - test(2023.1): perform tests on actual input with the expected answers
 
 ## [0.2023.1]

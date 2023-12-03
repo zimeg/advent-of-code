@@ -4,16 +4,16 @@ const BYTE_OFFSET_ZERO: u8 = b'\x30';
 
 pub fn calibration_letters(input: String) -> u32 {
     let numerics = replace_spellings(&input).unwrap();
-    return calibration_numbers(numerics);
+    calibration_numbers(numerics)
 }
 
 pub fn calibration_numbers(input: String) -> u32 {
-    let lines = input.trim().split("\n");
+    let lines = input.trim().split('\n');
     let mut sum: u32 = 0;
     for line in lines {
         sum += calibrate_value(line) as u32;
     }
-    return sum;
+    sum
 }
 
 fn replace_spellings(input: &str) -> Result<String, regex::Error> {
@@ -50,7 +50,7 @@ fn calibrate_value(value: &str) -> u8 {
             last = digit;
         }
     }
-    return first * 10 + last;
+    first * 10 + last
 }
 
 #[test]
