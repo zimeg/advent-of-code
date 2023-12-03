@@ -2,9 +2,13 @@ use regex::{Captures, Regex};
 
 const BYTE_OFFSET_ZERO: u8 = b'\x30';
 
-pub fn calibration_sum(input: String) -> u32 {
+pub fn calibration_letters(input: String) -> u32 {
     let numerics = replace_spellings(&input).unwrap();
-    let lines = numerics.trim().split("\n");
+    return calibration_numbers(numerics);
+}
+
+pub fn calibration_numbers(input: String) -> u32 {
+    let lines = input.trim().split("\n");
     let mut sum: u32 = 0;
     for line in lines {
         sum += calibrate_value(line) as u32;
@@ -55,7 +59,7 @@ fn test_calibration_sum_numbers() {
 pqr3stu8vwx
 a1b2c3d4e5f
 treb7uchet";
-    let value = calibration_sum(input.to_string());
+    let value = calibration_numbers(input.to_string());
     assert_eq!(value, 142);
 }
 
@@ -68,6 +72,6 @@ xtwone3four
 4nineeightseven2
 zoneight234
 7pqrstsixteen";
-    let value = calibration_sum(input.to_string());
+    let value = calibration_letters(input.to_string());
     assert_eq!(value, 281);
 }
