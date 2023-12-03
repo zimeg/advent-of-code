@@ -1,3 +1,4 @@
+pub mod gifts;
 pub mod stars;
 
 struct Arguments {

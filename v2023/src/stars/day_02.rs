@@ -5,12 +5,7 @@ const MAX_CUBES_GREEN: u32 = 13;
 const MAX_CUBES_BLUE: u32 = 14;
 
 pub fn count_possible_games(input: String) -> u32 {
-    let games = input.trim().split('\n');
-    let mut ids = 0;
-    for game in games {
-        ids += inspect_game(game);
-    }
-    ids
+    super::gifts::parser::sum_iteration(input, inspect_game)
 }
 
 fn inspect_game(game: &str) -> u32 {

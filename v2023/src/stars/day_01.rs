@@ -8,12 +8,7 @@ pub fn calibration_letters(input: String) -> u32 {
 }
 
 pub fn calibration_numbers(input: String) -> u32 {
-    let lines = input.trim().split('\n');
-    let mut sum: u32 = 0;
-    for line in lines {
-        sum += calibrate_value(line) as u32;
-    }
-    sum
+    super::gifts::parser::sum_iteration(input, calibrate_value)
 }
 
 fn replace_spellings(input: &str) -> Result<String, regex::Error> {
@@ -36,7 +31,7 @@ fn replace_spellings(input: &str) -> Result<String, regex::Error> {
     return Ok(regex.replace_all(&overlapped, &replacement).to_string());
 }
 
-fn calibrate_value(value: &str) -> u8 {
+fn calibrate_value(value: &str) -> u32 {
     let mut first = 0;
     let mut last = 0;
     let mut found = false;
@@ -50,7 +45,7 @@ fn calibrate_value(value: &str) -> u8 {
             last = digit;
         }
     }
-    first * 10 + last
+    (first * 10 + last).try_into().unwrap()
 }
 
 #[test]
