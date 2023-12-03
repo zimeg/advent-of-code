@@ -75,3 +75,17 @@ zoneight234
     let value = calibration_letters(input.to_string());
     assert_eq!(value, 281);
 }
+
+#[test]
+fn test_calibration_part_one() {
+    let input = std::fs::read_to_string("./inputs/day01").unwrap();
+    let actual = calibration_numbers(input);
+    assert_eq!(actual, 54877);
+}
+
+#[test]
+fn test_calibration_part_two() {
+    let input = std::fs::read_to_string("./inputs/day01").unwrap();
+    let actual = calibration_letters(input);
+    assert_eq!(actual, 54100);
+}
