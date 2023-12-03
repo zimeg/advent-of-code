@@ -18,6 +18,7 @@ fn main() {
     let answer = match args.star.as_str() {
         "1.1" => stars::day_01::calibration_numbers(input),
         "1.2" => stars::day_01::calibration_letters(input),
+        "2.1" => stars::day_02::count_possible_games(input),
         _ => {
             eprintln!("error: star '{}' does not yet shine", args.star);
             std::process::exit(1);

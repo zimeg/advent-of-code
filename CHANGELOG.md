@@ -14,6 +14,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - ci(docs): confirm that updates to the changelog happen on main commits
 - ci(docs): separately check for changelog changes on pull requests
 - ci(docs): surround yaml expressions with brackets and single quotes
+- feat(2023.2.1): compute the possible games for a given cube count
 - fix(2023.1.2): remove zero from the possibilities for replacement
 - fix(2023.1.2): attempt to swap spellings for digits in apperance order
 - fix(2023.1.2): repeat replacements to capture overlapping spellings
