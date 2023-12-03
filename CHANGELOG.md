@@ -10,6 +10,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - chore(2023): make a makefile that makes development commands easier
 - ci(tests): always check formatting and validity of code via tests
 - ci(tests): install the rust toolchain to the shared runner directory
+- ci(deps): configure dependabot for automatic dependency updates
 - fix(2023.1.2): remove zero from the possibilities for replacement
 - fix(2023.1.2): attempt to swap spellings for digits in apperance order
 - fix(2023.1.2): repeat replacements to capture overlapping spellings
