@@ -20,6 +20,7 @@ fn main() {
         "1.1" => stars::day_01::calibration_numbers(input),
         "1.2" => stars::day_01::calibration_letters(input),
         "2.1" => stars::day_02::count_possible_games(input),
+        "2.2" => stars::day_02::combine_fewest_cubes(input),
         _ => {
             eprintln!("error: star '{}' does not yet shine", args.star);
             std::process::exit(1);

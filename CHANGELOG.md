@@ -5,7 +5,7 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.2]
 
 - chore(2023): make a makefile that makes development commands easier
 - ci(tests): always check formatting and validity of code via tests
@@ -15,6 +15,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - ci(docs): separately check for changelog changes on pull requests
 - ci(docs): surround yaml expressions with brackets and single quotes
 - feat(2023.2.1): compute the possible games for a given cube count
+- feat(2023.2.2): combine the powers of the minimum cubes needed to play
 - fix(2023.1.2): remove zero from the possibilities for replacement
 - fix(2023.1.2): attempt to swap spellings for digits in apperance order
 - fix(2023.1.2): repeat replacements to capture overlapping spellings
@@ -41,4 +42,5 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 <!-- a collection of releases -->
 [unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.1...HEAD
+[0.2023.2]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.2
 [0.2023.1]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.1
