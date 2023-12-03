@@ -1,0 +1,23 @@
+name: Confirm confidence in changes
+on: [push, pull_request]
+jobs:
+  tests:
+    name: Validate star collections
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+          toolchain: stable
+        working-directory: v2023
+      - name: Check formatting
+        run: |
+          cargo fmt --check --all
+          cargo clippy --no-deps -- -D warnings
+        working-directory: v2023
+      - name: Run tests
+        run: cargo test
+        working-directory: v2023
