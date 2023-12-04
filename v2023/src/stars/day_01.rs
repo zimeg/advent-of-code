@@ -45,7 +45,7 @@ fn calibrate_value(value: &str) -> u32 {
             last = digit;
         }
     }
-    (first * 10 + last).try_into().unwrap()
+    (first * 10 + last).into()
 }
 
 #[test]
