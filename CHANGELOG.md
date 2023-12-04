@@ -7,8 +7,9 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [unreleased]
 
-- feat(2023.3): build a bitmap for blazing batched boolean bonanzas
 - docs(release): write a note with steps to follow when releasing
+- docs(release): include the lockfile version update of yesterday
+- feat(2023.3): build a bitmap for blazing batched boolean bonanzas
 - refactor(2023.1): confidently convert a small int type into a big one
 
 ## [0.2023.3]
