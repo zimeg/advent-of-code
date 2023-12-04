@@ -5,9 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.3]
 
 - docs(release): backdate the previous release in the project configs
+- docs(release): tag the passage of time with only hidden effort
 
 ## [0.2023.2]
 
@@ -45,6 +46,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.2...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.3...HEAD
+[0.2023.3]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.3
 [0.2023.2]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.2
 [0.2023.1]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.1
