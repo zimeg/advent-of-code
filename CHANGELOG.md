@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [unreleased]
+
+- docs(release): write a note with steps to follow when releasing
+
 ## [0.2023.3]
 
 - docs(release): backdate the previous release in the project configs
