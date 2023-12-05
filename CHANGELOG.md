@@ -5,10 +5,11 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.4]
 
 - docs(release): write a note with steps to follow when releasing
 - docs(release): include the lockfile version update of yesterday
+- docs(release): tag a release at the end of another timezones day
 - feat(2023.3): build a bitmap for blazing batched boolean bonanzas
 - feat(2023.3): include an or operation for a bitmap on the right
 - refactor(2023.1): confidently convert a small int type into a big one
@@ -54,7 +55,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.3...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.4...HEAD
+[0.2023.4]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.4
 [0.2023.3]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.3
 [0.2023.2]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.2
 [0.2023.1]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.1
