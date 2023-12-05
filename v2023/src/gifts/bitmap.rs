@@ -73,6 +73,13 @@ impl BitAnd<&BitMap> for BitMap {
     }
 }
 
+impl BitOr for BitMap {
+    type Output = BitMap;
+    fn bitor(self, rhs: BitMap) -> Self::Output {
+        BitMap::new(self.n[0] | rhs.n[0], self.n[1] | rhs.n[1])
+    }
+}
+
 impl BitOr<u128> for BitMap {
     type Output = BitMap;
     fn bitor(self, rhs: u128) -> Self::Output {
@@ -146,6 +153,8 @@ fn test_bitmap_or() {
     assert_eq!(n, BitMap::new(1, 1));
     n = n | 2;
     assert_eq!(n, BitMap::new(1, 3));
+    n = BitMap::new(3, 3) | BitMap::new(8, 4);
+    assert_eq!(n, BitMap::new(11, 7));
 }
 
 #[test]
