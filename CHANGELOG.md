@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [unreleased]
 
 - feat(2023.3.1): compute the sum of parts for an engine schematic
+- test(2023.3.1): include input values and tests for the actual result
 
 ## [0.2023.5]
 

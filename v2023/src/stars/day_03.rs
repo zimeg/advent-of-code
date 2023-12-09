@@ -64,3 +64,10 @@ fn test_engine_schematic_sum() {
     let actual = engine_schematic_sum(input.to_string());
     assert_eq!(actual, 4361);
 }
+
+#[test]
+fn test_gear_ratios_part_one() {
+    let input = std::fs::read_to_string("./inputs/day03").unwrap();
+    let actual = engine_schematic_sum(input);
+    assert_eq!(actual, 553825);
+}
