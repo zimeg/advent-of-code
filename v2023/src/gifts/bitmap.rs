@@ -27,8 +27,10 @@ impl BitMap {
     /// let bots = BitMap::default() | 6;  // 00110
     /// assert_eq!(bits.range(2, 1), bots);
     /// ```
-    pub fn range(&self, left: u32, right: u32) -> BitMap {
-        BitMap::mask(255 - left, 255 - right) & self
+    pub fn range(&self, left: usize, right: usize) -> BitMap {
+        let padded_left = (255 - left).try_into().unwrap();
+        let padded_right = (255 - right).try_into().unwrap();
+        BitMap::mask(padded_left, padded_right) & self
     }
 
     /// Creates a bitmap with the provided values.
