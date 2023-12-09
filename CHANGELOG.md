@@ -5,8 +5,9 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.8]
 
+- docs(release): deliver a release only after notable changes happen
 - feat(2023.3.1): compute the sum of parts for an engine schematic
 - test(2023.3.1): include input values and tests for the actual result
 
@@ -64,7 +65,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.5...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.8...HEAD
+[0.2023.8]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.8
 [0.2023.5]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.5
 [0.2023.4]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.4
 [0.2023.3]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.3
