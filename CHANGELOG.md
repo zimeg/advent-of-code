@@ -5,8 +5,9 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.9]
 
+- docs(release): a delay to the sleigh still brings the patient gifts
 - feat(2023.3.2): use a complex strategy to count adjacent gear ratios
 
 ## [0.2023.8]
@@ -69,7 +70,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.8...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.9...HEAD
+[0.2023.9]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.9
 [0.2023.8]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.8
 [0.2023.5]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.5
 [0.2023.4]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.4
