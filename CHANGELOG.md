@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [unreleased]
+
+- feat(2023.3.2): use a complex strategy to count adjacent gear ratios
+
 ## [0.2023.8]
 
 - docs(release): deliver a release only after notable changes happen
