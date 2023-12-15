@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [0.2023.14]
+
+- feat(2023.4.1): sum the scores of gifted scratchcards that won
+
 ## [0.2023.9]
 
 - docs(release): a delay to the sleigh still brings the patient gifts
