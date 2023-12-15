@@ -24,6 +24,7 @@ fn main() {
         "3.1" => stars::day_03::engine_schematic_sum(input),
         "3.2" => stars::day_03::adjacent_gear_ratios(input),
         "4.1" => stars::day_04::scratchcard_points(input),
+        "4.2" => stars::day_04::scratchcard_replay(input),
         _ => {
             eprintln!("error: star '{}' does not yet shine", args.star);
             std::process::exit(1);

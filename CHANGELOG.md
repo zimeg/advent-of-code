@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [0.2023.14]
 
 - feat(2023.4.1): sum the scores of gifted scratchcards that won
+- feat(2023.4.2): replay cards and count the total pile of plays
 - refactor(2023.4): count matching numbers on a ticket as a function
 - test(2023.4.1): include input values and tests for the actual score
 
