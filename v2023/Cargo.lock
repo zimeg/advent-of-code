@@ -13,7 +13,7 @@ dependencies = [
 
 [[package]]
 name = "aoc"
-version = "0.2023.9"
+version = "0.2023.14"
 dependencies = [
  "num",
  "regex",

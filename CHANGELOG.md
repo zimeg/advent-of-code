@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [0.2023.14]
 
+- docs(release): break a small streak of somewhat shifted priorities
 - feat(2023.4.1): sum the scores of gifted scratchcards that won
 - feat(2023.4.2): replay cards and count the total pile of plays
 - refactor(2023.4): count matching numbers on a ticket as a function
@@ -77,7 +78,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.9...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.14...HEAD
+[0.2023.14]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.14
 [0.2023.9]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.9
 [0.2023.8]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.8
 [0.2023.5]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.5
