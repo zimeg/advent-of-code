@@ -44,3 +44,10 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11";
     let value = scratchcard_points(input.to_string());
     assert_eq!(value, 13)
 }
+
+#[test]
+fn test_scratchcards_part_one() {
+    let input = std::fs::read_to_string("./inputs/day04").unwrap();
+    let actual = scratchcard_points(input);
+    assert_eq!(actual, 19855);
+}

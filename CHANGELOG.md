@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [0.2023.14]
 
 - feat(2023.4.1): sum the scores of gifted scratchcards that won
+- test(2023.4.1): include input values and tests for the actual score
 
 ## [0.2023.9]
 
