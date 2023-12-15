@@ -2,10 +2,17 @@ use crate::gifts::parser;
 use regex::Regex;
 
 pub fn scratchcard_points(input: String) -> u32 {
-    parser::sum_iteration(input, winning_tickets)
+    let point_counter = |game: &str| -> u32 {
+        let matches = matching_numbers(game);
+        if matches == 0 {
+            return 0;
+        }
+        2_u32.pow(matches.saturating_sub(1))
+    };
+    parser::sum_iteration(input, point_counter)
 }
 
-fn winning_tickets(game: &str) -> u32 {
+fn matching_numbers(game: &str) -> u32 {
     let regex = Regex::new(r"(?<value>[0-9]+)").unwrap();
     let numbers: Vec<&str> = game.split([':', '|']).collect();
     let splitter = |&nums| {
@@ -27,10 +34,7 @@ fn winning_tickets(game: &str) -> u32 {
             }
         }
     }
-    if matches == 0 {
-        return 0;
-    }
-    2_u32.pow(matches.saturating_sub(1))
+    matches
 }
 
 #[test]
