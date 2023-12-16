@@ -5,8 +5,9 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.15]
 
+- docs(release): mark another day done with an only alright solution
 - feat(2023): include a helper function to parse numbers in a string
 - feat(2023.5.1): find the seed that maps to the lowest location
 - feat(2023.5.2): iterate over large ranges of seeds to find the lowest
@@ -85,7 +86,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.14...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.15...HEAD
+[0.2023.15]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.15
 [0.2023.14]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.14
 [0.2023.9]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.9
 [0.2023.8]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.8
