@@ -9,6 +9,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 - feat(2023): include a helper function to parse numbers in a string
 - feat(2023.5.1): find the seed that maps to the lowest location
+- test(2023.5.1): verify the evaluated inputs match the actual outputs
 
 ## [0.2023.14]
 

@@ -81,3 +81,10 @@ humidity-to-location map:
     let value = seed_to_location_min(input.to_string());
     assert_eq!(value, 35);
 }
+
+#[test]
+fn test_almanac_fertilizer_part_one() {
+    let input = std::fs::read_to_string("./inputs/day05").unwrap();
+    let actual = seed_to_location_min(input);
+    assert_eq!(actual, 51752125);
+}
