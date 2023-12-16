@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [unreleased]
+
+- test(2023): use an optimized release build when running unit tests
+
 ## [0.2023.15]
 
 - docs(release): mark another day done with an only alright solution

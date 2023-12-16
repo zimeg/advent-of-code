@@ -1,7 +1,7 @@
 .PHONY: clean lint test
 
 test: lint
-	cargo test
+	cargo test --release
 
 lint:
 	cargo fmt --check --all
