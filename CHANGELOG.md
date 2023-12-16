@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [unreleased]
 
+- ci(2023): use an optimized release build for integration tests
 - test(2023): use an optimized release build when running unit tests
 
 ## [0.2023.15]
