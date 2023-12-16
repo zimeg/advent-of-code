@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [unreleased]
+
+- feat(2023): include a helper function to parse numbers in a string
+
 ## [0.2023.14]
 
 - docs(release): break a small streak of somewhat shifted priorities
