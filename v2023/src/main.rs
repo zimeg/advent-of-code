@@ -26,6 +26,7 @@ fn main() {
         "4.1" => stars::day_04::scratchcard_points(input),
         "4.2" => stars::day_04::scratchcard_replay(input),
         "5.1" => stars::day_05::seed_to_location_min(input),
+        "5.2" => stars::day_05::seed_to_location_range(input),
         _ => {
             eprintln!("error: star '{}' does not yet shine", args.star);
             std::process::exit(1);
