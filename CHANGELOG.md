@@ -8,6 +8,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 ## [unreleased]
 
 - ci(2023): use an optimized release build for integration tests
+- feat(2023.6.1): calculate the margin of error allowed in boat races
 - test(2023): use an optimized release build when running unit tests
 
 ## [0.2023.15]
