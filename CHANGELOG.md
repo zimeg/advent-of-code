@@ -9,6 +9,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 - ci(2023): use an optimized release build for integration tests
 - feat(2023.6.1): calculate the margin of error allowed in boat races
+- refactor(2023): return the vector of u64 when gathering numbers
 - test(2023): use an optimized release build when running unit tests
 - test(2023.6.1): ensure the same conclusion is found for the examples
 

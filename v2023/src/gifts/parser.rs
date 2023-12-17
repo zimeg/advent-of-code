@@ -12,7 +12,7 @@ pub fn sum_iteration(input: String, func: impl Fn(&str) -> u32) -> u32 {
 }
 
 /// Collects the list of natural numbers in a string.
-pub fn gather_numbers(line: &str) -> Vec<u32> {
+pub fn gather_numbers(line: &str) -> Vec<u64> {
     let regex = Regex::new(r"(?<n>[0-9]+)").unwrap();
     let values = regex.captures_iter(line);
     let mut numbers = vec![];

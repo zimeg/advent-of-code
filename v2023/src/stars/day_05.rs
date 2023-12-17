@@ -13,7 +13,7 @@ pub fn seed_to_location_min(input: String) -> u32 {
     let maps = create_mappings(mappings);
     let mut lowest = u64::MAX;
     for seed in seeds {
-        let location = permute_location(seed.into(), &maps);
+        let location = permute_location(seed, &maps);
         lowest = std::cmp::min(lowest, location);
     }
     lowest.try_into().unwrap()
@@ -29,7 +29,7 @@ pub fn seed_to_location_range(input: String) -> u32 {
             continue;
         }
         for seed in start..start + ranges.get(index + 1).unwrap() {
-            let location = permute_location(seed.into(), &maps);
+            let location = permute_location(seed, &maps);
             lowest = std::cmp::min(lowest, location);
         }
     }
@@ -43,9 +43,9 @@ fn create_mappings(mappings: Split<&str>) -> Vec<Vec<Mapping>> {
         for conversion in map.lines().skip(1) {
             let values = parser::gather_numbers(conversion);
             let mapping = Mapping {
-                destination: values[0].into(),
-                source: values[1].into(),
-                range: values[2].into(),
+                destination: values[0],
+                source: values[1],
+                range: values[2],
             };
             conversions.push(mapping);
         }
