@@ -25,3 +25,10 @@ Distance:  9  40  200";
     let value = boat_distance_errors(input.to_string());
     assert_eq!(value, 288);
 }
+
+#[test]
+fn test_boat_distance_errors_part_one() {
+    let input = std::fs::read_to_string("./inputs/day06").unwrap();
+    let actual = boat_distance_errors(input);
+    assert_eq!(actual, 393120);
+}
