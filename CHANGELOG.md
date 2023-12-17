@@ -5,9 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
-## [unreleased]
+## [0.2023.16]
 
 - ci(2023): use an optimized release build for integration tests
+- docs(release): mark the end of a day with many travels around
 - feat(2023.6.1): calculate the margin of error allowed in boat races
 - feat(2023.6.2): combine the race duration and records for a win
 - refactor(2023): return the vector of u64 when gathering numbers
@@ -95,7 +96,8 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
-[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.15...HEAD
+[unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.16...HEAD
+[0.2023.16]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.16
 [0.2023.15]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.15
 [0.2023.14]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.14
 [0.2023.9]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.9

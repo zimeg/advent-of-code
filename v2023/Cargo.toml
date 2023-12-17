@@ -1,6 +1,6 @@
 [package]
 name = "aoc"
-version = "0.2023.15"
+version = "0.2023.16"
 edition = "2021"
 repository = "https://github.com/zimeg/advent-of-code"
 license = "MIT"
