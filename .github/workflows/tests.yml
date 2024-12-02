@@ -20,3 +20,11 @@ jobs:
       - name: Run tests
         run: cargo test --release
         working-directory: v2023
+      - name: Install a flaked Nix
+        uses: DeterminateSystems/nix-installer-action@v16
+      - name: Install dependencies
+        run: nix develop -c go get
+        working-directory: v2024
+      - name: Run tests
+        run: nix develop -c make test
+        working-directory: v2024

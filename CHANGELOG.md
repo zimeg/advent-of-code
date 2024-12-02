@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [0.2024.01]
+
+- feat(2024.1.1): find the smallest difference between two lines
+
 ## [0.2023.16]
 
 - ci(2023): use an optimized release build for integration tests
@@ -91,11 +95,13 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 - test(2023.1): include input values of the day one puzzle
 
 <!-- a collection of links -->
+
 [calver]: https://calver.org
 [changelog]: https://keepachangelog.com/en/1.1.0/
 [commits]: https://www.conventionalcommits.org/en/v1.0.0/
 
 <!-- a collection of releases -->
+
 [unreleased]: https://github.com/zimeg/advent-of-code/compare/v0.2023.16...HEAD
 [0.2023.16]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.16
 [0.2023.15]: https://github.com/zimeg/advent-of-code/releases/tag/v0.2023.15
