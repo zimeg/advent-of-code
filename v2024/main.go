@@ -15,5 +15,7 @@ func main() {
 	switch os.Args[1] {
 	case "1.1":
 		stars.D01_1()
+	case "1.2":
+		stars.D01_2()
 	}
 }

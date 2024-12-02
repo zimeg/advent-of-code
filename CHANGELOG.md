@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [0.2024.01]
 
+- feat(2024.1.2): find the matching similarities multiplied score
 - feat(2024.1.1): find the smallest difference between two lines
 
 ## [0.2023.16]
