@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [0.2024.02]
 
+- feat(2024.2.2): attempt to remove a single value for valid lines
 - feat(2024.2.1): check for lines that ascend or descend in closeness
 
 ## [0.2024.01]
