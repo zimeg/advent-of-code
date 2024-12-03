@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [0.2024.02]
+
+- feat(2024.2.1): check for lines that ascend or descend in closeness
+
 ## [0.2024.01]
 
 - feat(2024.1.2): find the matching similarities multiplied score

@@ -17,5 +17,7 @@ func main() {
 		stars.D01_1()
 	case "1.2":
 		stars.D01_2()
+	case "2.1":
+		stars.D02_1()
 	}
 }
