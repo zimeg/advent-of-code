@@ -12,3 +12,9 @@ updates:
       interval: "daily"
     labels:
       - "dependencies"
+  - package-ecosystem: "gomod"
+    directory: "v2024"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
