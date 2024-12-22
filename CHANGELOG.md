@@ -7,6 +7,7 @@ the format is inspired by [keep a changelog][changelog] with entries logged as
 
 ## [0.2024.13]
 
+- ci(2024): avoid dependabot requirements of changes to changelog
 - fix(2023): remove deprecated functions and outdated rust syntax
 
 ## [0.2024.02]
