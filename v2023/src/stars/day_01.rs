@@ -14,7 +14,7 @@ pub fn calibration_numbers(input: String) -> u32 {
 fn replace_spellings(input: &str) -> Result<String, regex::Error> {
     let regex = Regex::new(r"(one|two|three|four|five|six|seven|eight|nine)")?;
     let replacement = |caps: &Captures| -> String {
-        return match caps[0].trim() {
+        match caps[0].trim() {
             "one" => "o1ne".to_string(),
             "two" => "t2wo".to_string(),
             "three" => "t3hree".to_string(),
@@ -25,10 +25,10 @@ fn replace_spellings(input: &str) -> Result<String, regex::Error> {
             "eight" => "e8ight".to_string(),
             "nine" => "n9ine".to_string(),
             x => x.to_string(),
-        };
+        }
     };
     let overlapped = regex.replace_all(input, &replacement);
-    return Ok(regex.replace_all(&overlapped, &replacement).to_string());
+    Ok(regex.replace_all(&overlapped, &replacement).to_string())
 }
 
 fn calibrate_value(value: &str) -> u32 {

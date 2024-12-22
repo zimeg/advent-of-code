@@ -5,6 +5,10 @@ all notable changes to this project will be documented here.
 the format is inspired by [keep a changelog][changelog] with entries logged as
 [conventional commits][commits] and marked with [calendar versioning][calver].
 
+## [0.2024.13]
+
+- fix(2023): remove deprecated functions and outdated rust syntax
+
 ## [0.2024.02]
 
 - feat(2024.2.2): attempt to remove a single value for valid lines

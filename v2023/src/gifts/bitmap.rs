@@ -1,5 +1,5 @@
+use std::fmt;
 use std::ops::{BitAnd, BitOr, Shl, Shr};
-use std::{fmt, u128};
 
 /// Compact boolean values for super fast arithmetic.
 ///
